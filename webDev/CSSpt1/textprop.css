@@ -1,0 +1,28 @@
+h1 {
+  text-align: center; /*depend on the fn's width*/
+  background-color: black;
+  font-weight: 100; /*size of boldness*/
+  text-decoration: red dotted underline;
+  color: white; /*color of text*/
+  letter-spacing: 10px; /*spacing bw words*/
+}
+h2 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: pink line-through;
+}
+h3 {
+  text-align: center;
+  text-decoration: brown wavy overline;
+}
+p {
+  font-weight: 900;
+  line-height: 2;
+  font-size: 15px;
+  font-family:avant  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;/*font style*/
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  background-color: red;
+}

@@ -1,0 +1,95 @@
+*{/*universal selector uses to select everything*/
+font-family: 'Lucida Sans';
+}
+h3{
+color:purple;
+}
+h1{
+    color: #b92b27;
+}
+/*id selector*/
+#login{
+    background-color: white;
+}
+#signup{
+background-color: #b92b27;
+}
+/*class selector--> can be given to the different type of elements*/
+.upvote{
+    background-color:blue;
+    color :white;
+}
+/* descendant selector ---> p mai jitne bhi a tag hai unn sb pr 
+apply hogi property*/
+/* p a {
+    color:red;
+    background-color: yellow;
+} */
+.followlink a{
+    color:red;
+    background-color: yellow;
+}
+nav ul li {
+color:pink;
+}
+/* adjecent sibling combinator 
+heading that comes immidiately after any paragraph*/
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: greenyellow;
+}
+/* child combinator---><div><p></p><div> this type of things
+for direct combinator*/
+div>input{
+    background-color: white;
+   
+    
+}
+/* attribute selector-->select elements based on the presence or value
+of a given attribute */
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color:blue;
+}
+/* Pseudo classes */
+button:hover{
+    background-color:black;
+    color:white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: darkmagenta;
+}
+p:active{
+    color:red;
+    font-weight: 900;
+}
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: 800;
+}
+.followlink:nth-of-type(2){
+    background-color: antiquewhite;
+}
+/* Pseudo elements */
+h1::first-letter{
+    color:blue;
+}
+p::first-line{
+    color:red;
+}
+p::selection{
+    background-color: yellow;
+    color:red;
+}
+h1{
+    color:red;
+}
+/* selector specificity 
+id>class.element---->preference*/

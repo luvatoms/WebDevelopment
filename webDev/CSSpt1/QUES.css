@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://media0.giphy.com/media/oB6KlAvOuaLtxYy8l4/giphy.gif?cid=ecf05e47oiar0icmctdgz0iaa71dwkheh6n8dndll5y57mk3&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size:100%;
+
+}
+.content {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+h1{
+    background-color: brown;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    color:dark rgb(2, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:30px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+button{
+    color: blueviolet;
+    background-color: white;
+}
+textarea{
+    background-color:#040000;
+    color:white;
+    background-size: 50%;
+}
+/* CSS styles */
+.custom-textarea {
+    width: 300px; /* Set the width of the textarea */
+    height: 1000px; /* Set the height of the textarea */
+    resize: none; /* Prevent resizing (optional) */
+    /* Add additional styles as needed */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #7b1e1e;
+}
