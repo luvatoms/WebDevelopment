@@ -1,0 +1,25 @@
+#outor{
+height:190px;
+width:70px;
+
+    border: 3px solid black ;
+
+}
+.a{
+height:50px;
+width:50px;
+border:3px solid black;
+margin: 5px;
+border-radius: 50%;
+
+}
+#r{
+    background-color: red;
+}
+#y{
+    background-color: yellow;
+}
+#g{
+    background-color: green;
+}
+
