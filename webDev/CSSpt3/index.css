@@ -1,0 +1,26 @@
+/* height , width*/
+div{
+    height:200px;
+    width: 500px;
+    background-color:pink;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color:black; */
+    /* shorthand */
+    border:5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    /* border-width:2px;
+    border-style:dashed;
+    border-color:purple;
+    shorthand */
+    border:5px dashed purple;
+    width: 510px;
+    border-left-color: blue;
+    border-top-color:green ;
+    border-radius: 55px;
+}
